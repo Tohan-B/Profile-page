@@ -133,10 +133,13 @@ button:hover {
   }
 
   .navigation-links {
-    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .container {
     padding-top: 20px;
+  }
+  .email-link {
+    font-size: 20px;
   }
 }
