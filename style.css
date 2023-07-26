@@ -8,6 +8,9 @@ body {
   margin: 60px auto;
   max-width: 800px;
 }
+.main-content {
+  margin-top: 5rem;
+}
 
 h1,
 h2,
