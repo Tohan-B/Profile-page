@@ -127,3 +127,16 @@ button:hover {
 .email-link:hover {
   text-decoration: underline;
 }
+@media (max-width: 767px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .navigation-links {
+    margin-top: 20px;
+  }
+
+  .container {
+    padding-top: 20px;
+  }
+}
