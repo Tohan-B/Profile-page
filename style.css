@@ -8,6 +8,11 @@ body {
   margin: 60px auto;
   max-width: 800px;
 }
+
+.project-container {
+  padding-top: 60px;
+}
+
 .content-container {
   padding-top: 100px;
 }
@@ -34,12 +39,9 @@ h3 {
 }
 
 p {
-  background: var(--secondary-color);
-  padding: 20px;
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.7;
 }
 
 .navigation-links {
@@ -54,10 +56,6 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-}
-
-.rounded {
-  border-radius: 0.25rem !important;
 }
 
 .primary-link {
@@ -105,6 +103,10 @@ p {
   margin: 10px;
 }
 
+.project-description {
+  padding: 120px 60px;
+}
+
 button {
   background: var(--primary-color);
   border: none;
@@ -138,16 +140,21 @@ button:hover {
   h1,
   h2,
   h3 {
-    font-size: 30px;
+    font-size: 28px;
   }
 
-  .navigation-links {
-    margin-bottom: 20px;
+  .project-container {
+    padding-top: 10px;
   }
 
-  .container {
-    padding-top: 20px;
+  .project-description {
+    padding: 0;
   }
+
+  .project-description h2 {
+    text-align: left;
+  }
+
   .email-link {
     font-size: 20px;
   }
