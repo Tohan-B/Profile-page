@@ -56,6 +56,10 @@ p {
   text-transform: capitalize;
 }
 
+.rounded {
+  border-radius: 0.25rem !important;
+}
+
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
