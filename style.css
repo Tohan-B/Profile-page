@@ -97,15 +97,6 @@ p {
   display: block;
 }
 
-.about-paragraphs {
-  display: flex;
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  margin: 10px;
-}
-
 .project-description {
   padding: 120px 60px;
 }
@@ -123,9 +114,65 @@ button {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   margin: 20px auto;
 }
+
 button:hover {
   cursor: pointer;
   opacity: 0.8;
+}
+
+.about-section {
+  padding: 100px 20px;
+}
+
+.about-section h1 {
+  text-align: left;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  text-align: left;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about-section p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+.about-secondary-link {
+  width: 200px;
+  height: 63px;
+  top: 681px;
+  left: 140px;
+  padding: 18px 30px 18px 30px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: #6c63ff;
+  box-shadow: var(--box-shadow);
+}
+
+.image {
+  width: 300px;
+  height: 460px;
+  border-radius: 20px;
 }
 
 .email-link {
@@ -139,6 +186,7 @@ button:hover {
 .email-link:hover {
   text-decoration: underline;
 }
+
 @media (max-width: 567px) {
   h1,
   h2,
@@ -160,5 +208,17 @@ button:hover {
 
   .email-link {
     font-size: 20px;
+  }
+  .about-secondary-link {
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+  }
+
+  .image {
+    width: 200px;
+    height: 360px;
+    border-radius: 20px;
   }
 }
